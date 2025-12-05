@@ -101,9 +101,27 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
 1. Open your terminal.
 2. Compile and run the main file:
 
-```bash
-javac *.java
-java JunkPoint
+## � Features
+   # 1. View System Foreword. Displays the system introduction and purpose.
+   # 2. Register an Account: Creates a new user account for system login.
+   # 3. Log in an Account: Logs in an existing account to access system features.
+      1. Record Waste Collection: Displays the list of points per material based on quantity and allows users to select a material and its quantity to record collected waste.
+      2. View Points: Displays the user’s total current or updated points recorded.
+      3. Redeem Points for Item: Displays the redeem options, including the food category list and the main food lists, and users should select on both lists to redeem the points for food, which will be served            as the voucher.
+      4. Convert Points to Cash: Displays the total current points; then the user should enter the total points wanted to be converted into money, and it displays once again the total amount of that money.
+      5. View Vouchers: Displays the voucher details from the redeemed points for an item or food.
+      6. Logout: Exits the user menu.
+   # 4. Continue as a Guest to Donate: Allows users without an account to donate recyclable trash.
+      1. Donate Waste: Displays the system message and waste material types, then the user should select the type of waste collected from the list and its quantity. After, there’s the system message again,             including the type and no. of waste items and the weight in kilograms of saved carbon dioxide emissions.
+      2. View Material List: Displays the list of weights per material onthe  carbon dioxide contribution.
+  # 5. Exit Guest Mode: Exits the guest mode.
+      Help: Shows information about the system, the importance of recycling, and general assistance.
+      Exit: Closes the system. 
+  # 6. Sample output - show what the program looks like when it runs. A short code block or screenshot may be included.
+
+
+
+
 
 ================================================================================================================
                                                     JunkPOinT
@@ -754,5 +772,5 @@ So, protect it, love it, and donate waste in every bit of it!
 >
 > We likewise acknowledge our **team**, whose collaboration, dedication, and shared commitment made this work possible, with each member’s effort and creativity contributing greatly to the completion of this system. Finally, to everyone who offered support in any form, our sincerest appreciation is extended. Your contributions have been truly invaluable.
 
-## References
+## 📂 References
 > Inhinyero Tea House. https://www.facebook.com/profile.php?id=100092842797401
