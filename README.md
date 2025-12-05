@@ -38,18 +38,17 @@ This system works directly through the terminal, demonstrating the practical use
 ## 🧩 OOP Concepts Applied
 
 ### 🔒 Encapsulation
-Encapsulation is demonstrated by securing user-related information (passwords, usernames, points). Instead of allowing direct access, the system uses controlled methods (getters, setters) to protect data integrity.
+In the JunkPOint system, encapsulation is shown by keeping user-related information such as passwords, usernames, accumulated points, and transaction records private. Instead of allowing other parts of the program to directly change these values, the system uses controlled methods like getters, setters, and updating functions. This protects user data and ensures that important values, such as points or passwords, cannot be altered accidentally or improperly.
 
 ### 🧬 Inheritance
-Inheritance is used in the user type relationships. For example, the `Guest` class extends a base user-type structure, inheriting common features (viewing menus, recycling info) while maintaining specific restrictions (no redemption/cash conversion).
+Inheritance appears in the system through the relationship between user types. For example, the `Guest` class can extend a base user-type structure, allowing it to inherit common features such as viewing menu options, accessing recycling information, and participating in basic system functions like donating waste. The Guest class automatically gains essential behaviours from the parent class but can still impose restrictions such as not being able to redeem items or convert points.
 
 ### 🎭 Polymorphism
-Polymorphism allows methods to behave differently based on the object calling them.
-* **`displayMenu()`**: Defined in the abstract `Person` class but implemented differently for `User` (full dashboard) vs `Guest` (donation only).
-* **`toString()`**: Overridden in the `Voucher` class to provide custom formatted displays.
+The system utilises polymorphism to allow methods to behave differently based on the object calling them. The `displayMenu()` method is defined in the abstract `Person` class but is implemented differently in the `User` and `Guest` subclasses. This ensures that while both are treated as "Persons," a registered User sees the full dashboard while a Guest sees only donation options. Additionally, the `Voucher` class overrides the `toString()` method to provide a custom formatted display of the voucher details when printed.
 
 ### 🧱 Abstraction
-Complex processes are hidden behind simple method calls like `calculatePoints()` or `convertPointsToCash()`. This hides the mathematical formulas and implementation details from the main program, making the code cleaner and easier to maintain.
+Abstraction is demonstrated in the system by hiding complex processes inside simple and easy-to-use methods. Methods like `calculatePoints()` or `convertPointsToCash()` do all the detailed work. This hides the formulas and lets the main programming simply call it. The main program just calls these methods and shows the results. This makes the code easier to read and maintain. It helps focus on what the program does rather than how it works internally.
+
 
 ---
 
