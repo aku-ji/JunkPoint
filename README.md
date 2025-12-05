@@ -733,14 +733,23 @@ all of us share. It is not only a mirror of ourselves, but a focusing lens on wh
 So, protect it, love it, and donate waste in every bit of it!
 ```
 
-Authors
-Aguilar, Hazel C. - 24-07754@g.batstate-u.edu.ph
+---
 
-Domingo, Bernardo Laurenz Ulyssys M. - 24-03337@g.batstate-u.edu.ph
+## 👥 Authors
 
-Garcia, Ruj Michael C. - 24-02316@g.batstate-u.edu.ph
+| Team Member | Student Email |
+| :--- | :--- |
+| **Aguilar, Hazel C.** | `24-07754@g.batstate-u.edu.ph` |
+| **Domingo, Bernardo Laurenz Ulyssys M.** | `24-03337@g.batstate-u.edu.ph` |
+| **Garcia, Ruj Michael C.** | `24-02316@g.batstate-u.edu.ph` |
+| **Panganiban, Jann Laurence R.** | `24-05806@g.batstate-u.edu.ph` |
 
-Panganiban, Jann Laurence R. - 24-05806@g.batstate-u.edu.ph
+---
 
-Acknowledgement
-With our sincerest gratitude, we first express thanks to God for the guidance that has been our foundation in overcoming challenges and accomplishing our goals. We are also grateful to our families for their unwavering support, understanding, and encouragement. Additionally, we express our heartfelt appreciation to our instructor for the guidance, insightful feedback, and continuous support throughout the development process. We likewise acknowledge our team, whose collaboration, dedication, and shared commitment made this work possible, with each member’s effort and creativity contributing greatly to the completion of this system. Finally, to everyone who offered support in any form, our sincerest appreciation is extended. Your contributions have been truly invaluable.
+## 💐 Acknowledgement
+
+> *With our sincerest gratitude, we first express thanks to God for the guidance that has been our foundation in overcoming challenges and accomplishing our goals.*
+>
+> We are also grateful to our **families** for their unwavering support, understanding, and encouragement. Additionally, we express our heartfelt appreciation to our **instructor** for the guidance, insightful feedback, and continuous support throughout the development process.
+>
+> We likewise acknowledge our **team**, whose collaboration, dedication, and shared commitment made this work possible, with each member’s effort and creativity contributing greatly to the completion of this system. Finally, to everyone who offered support in any form, our sincerest appreciation is extended. Your contributions have been truly invaluable.
