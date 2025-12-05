@@ -1,6 +1,6 @@
 <div align="center">
 
-# ་༘࿐་🗑️ִֶָ. ..𓂃 ࣪ ִֶָ   JunkPOinT   ִֶָ. ..𓂃 ࣪ ִֶָ🗑️་༘࿐
+# ་༘࿐་🗑️ִֶָ. ..𓂃 ࣪ ִֶָ JunkPOinTִֶָ . ..𓂃 ࣪ ִֶָ🗑️་༘࿐
 
 ### Recyclable Trash Redemption System
 
