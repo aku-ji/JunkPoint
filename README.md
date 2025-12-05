@@ -110,14 +110,13 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
    4. Continue as a Guest to Donate: Allows users without an account to donate recyclable trash.
       1. Donate Waste: Displays the system message and waste material types, then the user should select the type of waste collected from the list and its quantity. After, there’s the system message again,             including the type and no. of waste items and the weight in kilograms of saved carbon dioxide emissions.
       2. View Material List: Displays the list of weights per material on the  carbon dioxide contribution.
-   5. Exit Guest Mode: Exits the guest mode.
-      Help: Shows information about the system, the importance of recycling, and general assistance.
-      Exit: Closes the system. 
+      3. Exit Guest Mode: Exits the guest mode.
+   5. Help: Shows information about the system, the importance of recycling, and general assistance.
+   6. Exit: Closes the system. 
 
 ## 🚀 How to Run
 
-1. Open your terminal and run the program using:
-2. JunkPoint.java
+Open your terminal and run the program using JunkPoint.java
 
 
 ```bash
