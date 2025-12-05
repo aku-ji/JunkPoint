@@ -96,10 +96,6 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
 
 ---
 
-## 🚀 How to Run
-
-1. Open your terminal.
-2. Compile and run the main file:
 
 ## 💻 Features
    1. View System Foreword. Displays the system introduction and purpose.
@@ -117,9 +113,11 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
    5. Exit Guest Mode: Exits the guest mode.
       Help: Shows information about the system, the importance of recycling, and general assistance.
       Exit: Closes the system. 
-   6. Sample output - show what the program looks like when it runs. A short code block or screenshot may be included.
 
+## 🚀 How to Run
 
+1. Open your terminal and run the program using:
+2. JunkPoint.java
 
 
 ```bash
