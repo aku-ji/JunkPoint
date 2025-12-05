@@ -8,13 +8,13 @@
 
 **IT-2109**
 <br>
-• Aguilar, Hazel C. 
+Aguilar, Hazel C. 
 <br>
-• Domingo, Bernardo Laurenz Ulyssys M.
+Domingo, Bernardo Laurenz Ulyssys M.
 <br>
-• Garcia, Ruj Michael C. 
+Garcia, Ruj Michael C. 
 <br>
-• Panganiban, Jann Laurence R.
+Panganiban, Jann Laurence R.
 
 </div>
 
