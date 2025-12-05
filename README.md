@@ -98,7 +98,7 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
 
 
 ## 💻 Features
-   1. View System Foreword. Displays the system introduction and purpose.
+   1. View System Foreword: Displays the system introduction and purpose.
    2. Register an Account: Creates a new user account for system login.
    3. Log in an Account: Logs in an existing account to access system features.
       1. Record Waste Collection: Displays the list of points per material based on quantity and allows users to select a material and its quantity to record collected waste.
