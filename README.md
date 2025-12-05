@@ -101,7 +101,7 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
 1. Open your terminal.
 2. Compile and run the main file:
 
-## � Features
+## 💻 Features
    1. View System Foreword. Displays the system introduction and purpose.
    2. Register an Account: Creates a new user account for system login.
    3. Log in an Account: Logs in an existing account to access system features.
@@ -113,7 +113,7 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
       6. Logout: Exits the user menu.
    4. Continue as a Guest to Donate: Allows users without an account to donate recyclable trash.
       1. Donate Waste: Displays the system message and waste material types, then the user should select the type of waste collected from the list and its quantity. After, there’s the system message again,             including the type and no. of waste items and the weight in kilograms of saved carbon dioxide emissions.
-      2. View Material List: Displays the list of weights per material onthe  carbon dioxide contribution.
+      2. View Material List: Displays the list of weights per material on the  carbon dioxide contribution.
    5. Exit Guest Mode: Exits the guest mode.
       Help: Shows information about the system, the importance of recycling, and general assistance.
       Exit: Closes the system. 
@@ -122,6 +122,7 @@ Abstraction is demonstrated in the system by hiding complex processes inside sim
 
 
 
+```bash
 
 ================================================================================================================
                                                     JunkPOinT
