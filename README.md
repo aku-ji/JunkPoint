@@ -1,18 +1,18 @@
 <div align="center">
 
-# ་༘࿐་🗑️ִֶָ. ..𓂃 ࣪ ִֶָ JunkPOinT ִֶָ. ..𓂃 ࣪ ִֶָ🗑️་༘࿐
+# ་༘࿐་🗑️ִֶָ. ..𓂃 ࣪ ִֶָ  JunkPOinT  ִֶָ. ..𓂃 ࣪ ִֶָ🗑️་༘࿐
 
 ### Recyclable Trash Redemption System
 
-<br> 💻 HaBeRuLa++ 💻
+<br> 💻 **HaBeRuLa++** 💻
 
 **IT-2109**
-<br>
-Aguilar, Hazel C. 
+
+Aguilar, Hazel C.
 <br>
 Domingo, Bernardo Laurenz Ulyssys M.
 <br>
-Garcia, Ruj Michael C. 
+Garcia, Ruj Michael C.
 <br>
 Panganiban, Jann Laurence R.
 
@@ -20,137 +20,91 @@ Panganiban, Jann Laurence R.
 
 ---
 
----
+## 📖 Overview
 
-## Overview
+**JunkPOinT** is a console-based Java application designed as a *Recyclable Trash Redemption System*. It encourages recycling practices by allowing users to receive rewards for collecting waste materials such as plastic, metal, glass, paper, and electronics.
 
-JunkPOinT is a console-based Java application, specifically a Recyclable Trash Redemption System, that encourages recycling practices by allowing users to receive rewards for collecting waste like plastic, metal, glass, paper, and electronics. Users record their waste collections, earning points based on the type of material and its quantity. Every type has a corresponding number of points, which can be redeemed for an item, specifically a food, or converted into money or cash. For donations of users who do not want something in return, waste collections also have a corresponding weight based on type and quantity for them to know how many kilograms of carbon dioxide emissions are being saved because of those wastes.
+Users record their waste collections to earn points based on material type and quantity. These points can be:
+* Redeemed for food items.
+* Converted into cash.
+* Donated (showing the weight of carbon dioxide emissions saved).
 
-This system works directly through the terminal, demonstrating the practical use of Object-Oriented Programming (OOP) concepts such as encapsulation, inheritance, polymorphism, and abstraction, alongside proper file handling and modular design. It also incorporates arrays, collections, methods, and control structures. Overall, by incentivizing waste management, this system directly supports the United Nations’ Sustainable Development Goals **No. 12 (Responsible Consumption and Production)** and **No. 11 (Sustainable Cities and Communities)**, promoting cleaner, more sustainable environments.
-
----
-
-## OOP Concepts Applied
-
-### Encapsulation
-
-In the JunkPOint system, encapsulation is shown by keeping user-related information such as passwords, usernames, accumulated points, and transaction records private. Instead of allowing other parts of the program to directly change these values, the system uses controlled methods like getters, setters, and updating functions. This protects user data and ensures that important values, such as points or passwords, cannot be altered accidentally or improperly.
-
-### Inheritance
-
-Inheritance appears in the system through the relationship between user types. For example, the `Guest` class can extend a base user-type structure, allowing it to inherit common features such as viewing menu options, accessing recycling information, and participating in basic system functions like donating waste. The Guest class automatically gains essential behaviours from the parent class but can still impose restrictions such as not being able to redeem items or convert points.
-
-### Polymorphism
-
-The system utilises polymorphism to allow methods to behave differently based on the object calling them. The `displayMenu()` method is defined in the abstract `Person` class but is implemented differently in the `User` and `Guest` subclasses. This ensures that while both are treated as "Persons," a registered User sees the full dashboard while a Guest sees only donation options. Additionally, the `Voucher` class overrides the `toString()` method to provide a custom formatted display of the voucher details when printed.
-
-### Abstraction
-
-Abstraction is demonstrated in the system by hiding complex processes inside simple and easy-to-use methods. Methods like `calculatePoints()` or `convertPointsToCash()` do all the detailed work. This hides the formulas and lets the main programming simply call it. The main program just calls these methods and shows the results. This makes the code easier to read and maintain. It helps focus on what the program does rather than how it works internally.
+This system works directly through the terminal, demonstrating the practical use of **Object-Oriented Programming (OOP)** concepts alongside proper file handling and modular design. It supports the **United Nations’ Sustainable Development Goals**:
+* **Goal 12:** Responsible Consumption and Production
+* **Goal 11:** Sustainable Cities and Communities
 
 ---
 
-## Program Structure
+## 🧩 OOP Concepts Applied
 
-**Users can:**
+### 🔒 Encapsulation
+Encapsulation is demonstrated by securing user-related information (passwords, usernames, points). Instead of allowing direct access, the system uses controlled methods (getters, setters) to protect data integrity.
 
+### 🧬 Inheritance
+Inheritance is used in the user type relationships. For example, the `Guest` class extends a base user-type structure, inheriting common features (viewing menus, recycling info) while maintaining specific restrictions (no redemption/cash conversion).
+
+### 🎭 Polymorphism
+Polymorphism allows methods to behave differently based on the object calling them.
+* **`displayMenu()`**: Defined in the abstract `Person` class but implemented differently for `User` (full dashboard) vs `Guest` (donation only).
+* **`toString()`**: Overridden in the `Voucher` class to provide custom formatted displays.
+
+### 🧱 Abstraction
+Complex processes are hidden behind simple method calls like `calculatePoints()` or `convertPointsToCash()`. This hides the mathematical formulas and implementation details from the main program, making the code cleaner and easier to maintain.
+
+---
+
+## ⚙️ Program Structure
+
+### 👤 User Features
 1.  **View System Foreword**
 2.  **Register an Account**
-    - Enter Full Name
-    - Enter Username
-    - Enter Password
 3.  **Login an Account**
-    - Enter Username
-    - Enter Password
-    - **1. Record Waste Collection**
-      - Select Points per Material (Based on Quantity)
-        1.  Plastic - 5.0 points
-        2.  Metal - 10.0 points
-        3.  Glass - 7.0 points
-        4.  Paper - 2.0 points
-        5.  Electronics - 12.0 points
-      - Select a Material that is Wanted to Record (1-5)
-      - Enter the Quantity of the Material
-    - **2. View Points**
-      - View Earned Points
-    - **3. Redeem Points for Item**
-      - Redeem Points by Selecting Food Category
-      - Redeem Points Selecting Specific Food
-      - View the Generated Voucher or Know if there’s Not Enough Points for Redemption
-    - **4. Convert Points to Cash**
-      - View Total Current Points
-      - Enter the Number of Points Wanted to Convert
-      - View the Amount of Converted Points or Know if there’s Not Enough Points to Convert into Money
-    - **5. View Vouchers**
-      - View the Vouchers Received by Redeeming Points for Item
-    - **6. Logout**
-      - Logout the User Menu
-4.  **Continue as Guest to Donate**
-    - **1. Donate Waste**
-      - View the System Message about the Donation
-      - View Waste Material Types:
-        1.  Plastic
-        2.  Metal
-        3.  Glass
-        4.  Paper
-        5.  Electronics
-      - Select a Material Wanted to Donate (1-5)
-      - Enter the Quantity of the Material
-      - View the System Message about the Donation including Type and No. of Waste Item and Weight in Kilogram of Saved Carbon Dioxide Emissions
-    - **2. View Material List**
-      - View Weight per Material (CO2 Contribution)
-        1.  Plastic - 0.15 kg
-        2.  Metal - 0.4 kg
-        3.  Glass - 0.03 kg
-        4.  Paper - 0.09 kg
-        5.  Electronics - 1.5 kg
-    - **3. Exit Guest Mode**
-      - Exit Guest Mode or Guest Menu
-5.  **Help or Ask for Assistance**
-    - View Guide on How to use the Recyclable Trash Redemption System
-    - View the Importance of recycling
-    - View Environmental Emergency Services Call or Message Contacts
-    - Enter Other Questions or Concerns (If none, type "None / none")
-      - _(If None / none)_ - View System Message
-      - _(If there’s any)_ - Enter Name, Email, Contact Number -> View System Message
-6.  **Exit**
-    - View System Message
-    - Exit the System or Terminal
+    * **Record Waste Collection** (Plastic, Metal, Glass, Paper, Electronics)
+    * **View Points**
+    * **Redeem Points for Item** (Food Categories -> Specific Items -> Voucher Generation)
+    * **Convert Points to Cash**
+    * **View Vouchers**
+    * **Logout**
+
+### 👤 Guest Features
+4.  **Continue as Guest**
+    * **Donate Waste** (Calculates CO2 emissions saved)
+    * **View Material List** (View CO2 contribution weights)
+    * **Exit Guest Mode**
+
+### ℹ️ System Features
+5.  **Help / Assistance**
+    * User Guide
+    * Importance of Recycling
+    * Emergency Contacts (DENR, EMB, etc.)
+    * Developer Contact Form
+6.  **Exit System**
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-**Files:**
-
-- `Guest.java`
-- `InsufficientPointsException.java`
-- `JunkPoint.java`
-- `Person.java`
-- `Redeemable.java`
-- `User.java`
-- `Voucher.java`
-- `WasteCalculator.java`
-
-**File Descriptions:**
-
-- **Guest.java** - This code creates a Guest class that allows a user to donate different types of waste materials. It asks the user to choose a material and quantity, then calculates how much CO₂ emissions are saved based on their donation. Finally, it displays a summary thanking the user and showing the environmental impact of their contribution.
-- **InsufficientPointsException.java** - This code defines a custom exception called `InsufficientPointsException` that is used when a user does not have enough points to perform an action. It extends the built-in `Exception` class, meaning it behaves like a normal error but with a specific purpose. The constructor passes a custom message to the parent class so the program can display a clear explanation of the error.
-- **JunkPoint.java** - This Java code creates a console-based application called JunkPOinT, a simulation of a Recyclable Trash Redemption System where users earn points for donating waste. The system allows users to register accounts or donate as a guest, log in, record their waste collections, and redeem their accumulated points for items like coffee and snacks from a partner café, "Inhinyero Café." Users can also convert points to cash once they reach a minimum threshold (100 points at a rate of 1 point = Php 0.3). The system includes a Help menu that explains its usage, the importance of recycling, and provides environmental emergency contacts, emphasizing its support for the Sustainable Development Goals (SDG) 11 and 12. The core functionality manages user data, point accumulation, and redemption transactions through various nested menus and custom exception handling like `InsufficientPointsException`.
-- **Person.java** - This code defines the abstract class `Person`, which mandates that all concrete person types must possess a `name`. As an abstract class, it cannot be instantiated directly but serves as a base class, enforcing that all subclasses must implement the abstract method, `displayMenu()`. Therefore, `Person` establishes a required structure for identity and interface behavior across all users in the application.
-- **Redeemable.java** - This code defines the interface `Redeemable`, which establishes a contract for any class that implements it to be able to handle two specific actions related to a point system. The ability to redeem points for items and the ability to convert points to cash. Both methods are required to explicitly declare that they can throw an `InsufficientPointsException` if the user attempts to redeem or convert more points than they possess.
-- **User.java** - This represents a User who interacts with the system by collecting points and using them for rewards. It saves the user’s basic information, their current point balance, and the vouchers they earn over time. It includes methods that let the user gain points, spend points, or turn their points into cash whenever allowed. If the user doesn’t have enough points for a certain action, the program stops the process and throws an `InsufficientPointsException` to avoid incorrect deductions. In short, this User class manages all point-related activities and keeps the system accurate and organized.
-- **Voucher.java** - The Voucher, serves as a data structure to represent a redeemable item earned by a user, storing key information such as the `itemName`, the product series, and specific details. When a new voucher object is created, it is automatically assigned a unique, random `voucherCode` for identification and tracking. The class also provides methods to access these details and an overridden `toString()` method for formatted display of the voucher's information.
-- **WasteCalculator.java** - The WasteCalculator class serves as a utility for the JunkPOinT system, specifically designed to determine the point value of donated recyclable materials based on their type and quantity. It uses a static `HashMap` to store predefined point values for different waste categories (like plastic, metal, and electronics) and provides a public `calculatePoints` method to perform the required multiplication and return the total points earned. Additionally, it offers a `showMaterialList` method to easily display the current redemption rate for each material to the user.
+| File | Description |
+| :--- | :--- |
+| **`JunkPoint.java`** | **Main Entry Point.** The core simulation managing the console UI, navigation, menus, and transaction flows. |
+| **`User.java`** | Manages registered user data, point balance, voucher storage, and rewards logic. |
+| **`Guest.java`** | Handles guest functionalities, specifically waste donation and CO2 calculation without account storage. |
+| **`Person.java`** | **Abstract Base Class.** Enforces the structure (e.g., `name`, `displayMenu()`) for all user types. |
+| **`Voucher.java`** | Data structure for redeemed items, generating unique `voucherCode` and details. |
+| **`WasteCalculator.java`** | Utility class using a `HashMap` to store point values and calculate totals based on waste type/quantity. |
+| **`Redeemable.java`** | **Interface.** Defines the contract for redeeming items and converting points to cash. |
+| **`InsufficientPointsException.java`** | **Custom Exception.** Handles errors when a user attempts to spend more points than available. |
 
 ---
 
-## How to Run the Program
+## 🚀 How to Run
 
-Open your terminal and run the program using:
+1. Open your terminal.
+2. Compile and run the main file:
 
 ```bash
-JunkPoint.java
+javac *.java
+java JunkPoint
 
 ================================================================================================================
                                                     JunkPOinT
