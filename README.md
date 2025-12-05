@@ -4,15 +4,16 @@
 
 ### Recyclable Trash Redemption System
 
-**Course:** IT 2109
-<br>
-**Team:** 💻 HaBeRuLa++ 💻
+<br> 💻 HaBeRuLa++ 💻
 
 **Authors:**
 <br>
 • Aguilar, Hazel C. 
+<br>
 • Domingo, Bernardo Laurenz Ulyssys M.
+<br>
 • Garcia, Ruj Michael C. 
+<br>
 • Panganiban, Jann Laurence R.
 
 </div>
