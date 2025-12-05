@@ -1,16 +1,22 @@
+<div align="center">
+
 # ་༘࿐་🗑️ִֶָ. ..𓂃 ࣪ ִֶָ JunkPOinT ִֶָ. ..𓂃 ࣪ ִֶָ🗑️་༘࿐
 
-**Recyclable Trash Redemption System**
+### Recyclable Trash Redemption System
 
-**Course:** IT 2109  
+**Course:** IT 2109
+<br>
 **Team:** 💻 HaBeRuLa++ 💻
 
 **Authors:**
+<br>
+Aguilar, Hazel C. • Domingo, Bernardo Laurenz Ulyssys M.
+<br>
+Garcia, Ruj Michael C. • Panganiban, Jann Laurence R.
 
-- Aguilar, Hazel C.
-- Domingo, Bernardo Laurenz Ulyssys M.
-- Garcia, Ruj Michael C.
-- Panganiban, Jann Laurence R.
+</div>
+
+---
 
 ---
 
